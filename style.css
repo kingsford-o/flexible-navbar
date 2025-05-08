@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans' sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #000;
+    background-image: url(https://img.freepik.com/free-photo/autumn-leaf-falling-revealing-intricate-leaf-vein-generated-by-ai_188544-9869.jpg?ga=GA1.1.490251166.1739022256&semt=ais_hybrid&w=740);
+    background-size: cover;
+    background-position: center;
+}
+
+li{
+    list-style: none;
+    color: #fff;
+    font-size: 1rem;
+}
+li:hover{
+    color: orange;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+}
+a:hover{
+    color: orange;
+    cursor: pointer;
+
+}
+/*Header*/
+
+header{
+    position: relative;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    max-height: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
